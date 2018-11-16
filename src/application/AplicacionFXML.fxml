@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+   <children>
+      <Pane fx:id="pane1" layoutX="268.0" layoutY="108.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane2" layoutX="278.0" layoutY="118.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane3" layoutX="278.0" layoutY="118.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane4" layoutX="278.0" layoutY="118.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane fx:id="pane5" layoutX="288.0" layoutY="29.0" prefHeight="399.0" prefWidth="250.0" style="-fx-background-radius: 50px; -fx-background-color: #AEE0F9;" AnchorPane.rightAnchor="5.0">
+         <children>
+            <ImageView fitHeight="107.0" fitWidth="147.0" layoutX="72.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/washington-huskies-2-logo-png-transparent.png" />
+               </image>
+            </ImageView>
+            <JFXTextField layoutX="40.0" layoutY="140.0" promptText="USUARIO" style="-fx-border-color: #894FFE; -fx-border-radius: 10px;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField layoutX="40.0" layoutY="200.0" promptText="CONTRASEÑA" style="-fx-border-color: #894FFE; -fx-border-radius: 10px;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton layoutX="19.0" layoutY="303.0" prefHeight="36.0" prefWidth="213.0" text="CONTRASEÑA OLVIDADA" textFill="#1f0bb8" underline="true" />
+            <JFXButton layoutX="47.0" layoutY="259.0" prefHeight="44.0" prefWidth="156.0" style="-fx-background-color: #894FFE; -fx-background-radius: 10px;" text="ENTRAR" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
